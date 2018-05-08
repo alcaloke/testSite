@@ -1,10 +1,31 @@
+html {
+  font-family: 'Roboto Mono', monospace;
+}
+
+body {
+  padding: 1em;
+  margin: 0 auto;
+}
+
+@media (max-width: 500px) {
+  body {
+    font-size: 130%;
+  }
+}
+
+h1 {
+  color: Navy;
+  background-color: Azure;
+  border: 1px solid black;
+}
+
+p {
+  color: black;
+}
+
 img {
   display: block;
   /* margin: 20px auto 20px 150px; */
-}
-
-html {
-  font-family: 'Roboto Mono', monospace;
 }
 
 figure {
