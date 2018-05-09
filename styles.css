@@ -147,3 +147,23 @@ table th + td {
   color: white;
   background: deeppink;
 }
+
+/* Percentages in action */
+div .boxes {
+  margin: 10px auto;
+  font-size: 200%;
+  color: aliceblue;
+  height: 150px;
+  border: 1px solid aquamarine;
+}
+
+.boxes:nth-child(1) {
+  background-color: lightskyblue;
+  width: 650px;
+}
+
+.boxes:nth-child(2) {
+  background-color: lightskyblue;
+  width: 75%;
+  opacity: 0.7;
+}
