@@ -23,15 +23,37 @@ h1 {
   /* border: 1px solid black; */
 }
 
+a {
+  color: blue;
+  font-weight: bold;
+  text-decoration: none;
+}
+a:visited {
+  color: blue;
+}
+a:hover, a:active, a:focus {
+  color: hotpink;
+  text-decoration: none;
+}
+
 #vectorG {
   display: block;
   margin: 0 auto;
 }
 
+#author {
+  color: hotpink;
+  text-align: center;
+}
+
+#author:hover {
+  color: turquoise;
+}
+
 .subheaders {
   color: gold;
   background-color: ivory;
-  padding: 15px;
+  padding: 10px;
   font-size: 24pt;
   text-align: center;
   text-shadow: 2px 2px 2px indigo;
@@ -50,4 +72,35 @@ img {
 figure {
   font-size: 9pt;
   text-align: center;
+}
+
+iframe {
+  display: block;
+  margin: 0 auto;
+}
+
+[href^=http]::after {
+  content: ' ^_^'
+}
+
+[data-empathy] {
+  color: deeppink;
+}
+[data-creativity] {
+  color: deepskyblue;
+}
+[data-sensibility] {
+  color: darkorange;
+}
+[data-empathy="relationship"] {
+  text-shadow: 1px 1px 1px blue;
+}
+[data-creativity~="supraconscious"] {
+  background-color: white;
+}
+[family^="ratna"] {
+  font-size: 22pt;
+}
+[family$="karma"] {
+  opacity: 0.5;
 }
